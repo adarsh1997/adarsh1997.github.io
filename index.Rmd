@@ -1,7 +1,9 @@
 ---
-title: "Holy cow!"
+title: "Adarsh Ramakrishnan's Profile"
 ---
 
-### I have a webpage!
+### Introduction
 
-And I can put all kinds of stuff on it!
+This website contains information about my academic and professional experiences as well as information to contact my email, github, and other professional networks. Please use the links below to access the different sections of the website. Thank you for visiting!
+
+### Sections
