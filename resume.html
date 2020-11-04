@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Resume</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="mailto:&lt;adarshram97@gmail.com&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/adarshram97/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Resume</h1>
+
+</div>
+
+
+<div id="education" class="section level3">
+<h3>Education</h3>
+<p><b>University of Texas at Austin</b></p>
+<p>BSA Biology Honors with Elements of Computing Certificate and Pre-Health Professions Certificate (Graduated May 2019)</p>
+<p>Health Science Scholars Honors Program</p>
+<p><b>Columbia University Mailman School of Public Health</b></p>
+<p>MPH Epidemiology and Applied Biostatistics Certificate (Graduating May 2021)</p>
+</div>
+<div id="research-experience" class="section level3">
+<h3>Research Experience</h3>
+<p>● Undergraduate research assistant in Dr. Martin Poenie’s Cellular Biology lab. Worked on a research project studying the role of DISC1 in T-cell activation. Culminated my research into an independent Capstone Thesis. Integrated my thesis with relevant findings in the lab to publish a paper in the Journal of Cell Science - 10 hours/week. 3 years [650 hours] (<a href="https://doi.org/10.1242/jcs.242875" class="uri">https://doi.org/10.1242/jcs.242875</a>)</p>
+<p>● Summer research internship with a nutrition team in Chennai, India studying the impact of maternal characteristics on the dietary pattern of school children. Research abstract was selected for a poster presentation at the 15th Annual Apollo International Clinical Nutrition Conference in Sri Lanka - 16 hours/week. Summer 2016. [64 hours]</p>
+<p>● Clinical observation and research internship at the Nithra Institute of Sleep Sciences in Chennai, India. Involved in a research project studying the gender differences in acceptance of treatment for sleep apnea which was submitted as a research abstract to SLEEP 2018, Annual Conference of the American Academy of Sleep Medicine - 15 hours/week. Summer 2017 [45 hours] (<a href="https://doi.org/10.1093/sleep/zsy061.522" class="uri">https://doi.org/10.1093/sleep/zsy061.522</a>)</p>
+</div>
+<div id="volunteer-work-community-service" class="section level3">
+<h3>Volunteer Work/ Community Service</h3>
+<p>● Ambassador for the Love Strength &amp; Hope organization at the Austin City Limits (ACL) music festival [12 hours]</p>
+<p>● Volunteer at the Micah 6 food pantry to serve food to homeless people in the Austin community [16 hours]</p>
+<p>● Volunteered to create awareness at the Multiple sclerosis bike race [10 hours]</p>
+<p>● Volunteered in the organizing committee for the Congenital Texas heart walk by the American Heart Association [18 hours]</p>
+<p>● Volunteered as an usher at UT football games as part of the American Chemical Society to raise money for cancer research [8 hours]</p>
+<p>● Volunteered to build a haunted house to raise money for cancer related charities and organizations as part of ‘Scare for a Cure’ [21 hours]</p>
+<p>● Ambassador for SAGA charitable trust to educate the general public on basic life saving skills [30 hours]</p>
+<p>● Educated and Empowered women as a volunteer for the NAAM Foundation [24 hours]</p>
+<p>● Event chairperson and exam proctor at the Austin Regional Science Olympiad [20 hours]</p>
+<p>● Volunteered for the “Exploring the Human Body” event at Explore UT 2018 [8 hours]</p>
+<p>● Volunteer at HOPE clinic for the underserved. Engaged as a triage assistant, medical scribe and a front-desk attendant. [65 hours]</p>
+<p>● Global Impact Fellow for Unite for Sight. Raised 1800 dollars for the organization to provide free reading glasses to underserved communities in Southern India. Involved in global outreach camps and helped with visual acuity screening [84 hours]</p>
+<p>● Volunteer for the COVID-19 Student Service Corps (CSSC). Involved in the “Hero Meals” division where I help coordinate delivery of food to physicians and patients being treated at the Columbia Irving Medical Center [30 hours]</p>
+</div>
+<div id="work-experience" class="section level3">
+<h3>Work Experience</h3>
+<p>● Interned at ‘Unislink’, a healthcare analytics company. Worked on a project where I analyzed clinical quality measures and helped develop a Java based application that presents patient data to physicians [6 weeks - 40 hours/week. Summer 2019]</p>
+<p>● HRTP Intern at the New York City Department of Health. Worked in the Surveys and Data Analytics Unit of the Epidemiology Bureau on COVID-19 Health and Social Determinants of Health surveys for the Healthy NYC Project [20 hours/week. Spring and Summer 2020]</p>
+<p>● Teaching Assistant for the Quantitative Research Methods course at the Mailman School of Public Health at Columbia University [15 hours/week. Fall 2020]</p>
+</div>
+<div id="extracurricular-activities" class="section level3">
+<h3>Extracurricular Activities</h3>
+<p>● Member of the ‘Soul Blend’ acapella group at the University of Texas. Performed at the ‘Acapalooza’ event to raise money for ‘Voices Against Violence’. Held an officer position in the organization for a semester and was a member of the group for one year</p>
+<p>● Shadowed doctors from various specialties at Apollo Hospitals, India during the summer of 2016 and again during the summer of 2018 [54 hours]</p>
+<p>● Participated in a shadowing program by the Johns Hopkins Hospital that involved shadowing Dr. Joseph Sakran and his team in the Johns Hopkins Surgical ICU followed by a week of shadowing at the University of Maryland Medical Center (UMMC) [72 hours]</p>
+<p>● Studied abroad in Seville, Spain during the summer of 2017. Studied Evolution and Spanish culture as part of the ‘Evolution: An International and Cultural Perspective’ University of Texas study abroad program</p>
+<p>● Ambassador and mentor for the Health Science Scholars honors program.</p>
+<p>● Event organizer and exam proctor for the Thermodynamics event at the Austin Regional Science Olympiad</p>
+</div>
+<div id="awards-and-certifications" class="section level3">
+<h3>Awards and Certifications</h3>
+<p>● Recipient of the ‘Ralph. A. Steiner M.D scholarship’</p>
+<p>● Cleared all 8 grades of the Trinity College of London professional level piano examinations with merit</p>
+<p>● Member of the ‘Alpha Lambda Delta’ and ‘Phi Eta Sigma’ honor societies</p>
+<p>● Recipient of the ‘Collegiate Scholar’ award by the University of Texas</p>
+<p>● Completed the ‘Heartsaver CPR and AED provider’ certification by the American Heart Association</p>
+<p>● Completed the Johns Hopkins Patient Safety Certification Program by the Armstrong Institute for Patient Safety and Quality</p>
+</div>
+<div id="skills" class="section level3">
+<h3>Skills</h3>
+<p>● Can speak 4 languages - English, Hindi, Sanskrit and Tamil. Fluent in English and Tamil</p>
+<p>● Played tennis in the school level and volleyball in the intramural college level.</p>
+<p>● Can code in Python, R Studio, Swift, HTML, Javascript and Java programming languages. Have basic skills in app development, graphic design, data analytics and web programming.</p>
+<p>● Studied piano for 8 years. Can read and write sheet music.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

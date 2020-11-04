@@ -9,3 +9,5 @@ This website contains information about my academic and professional experiences
 <img src="images/profile_pic.jpg" style="width:30%">
 
 ### Sections
+
+[Resume](resume.html)
