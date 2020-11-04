@@ -4,6 +4,8 @@ title: "Adarsh Ramakrishnan's Profile"
 
 ### Introduction
 
-This website contains information about my academic and professional experiences as well as information to contact my email, github, and other professional networks. Please use the links below to access the different sections of the website. Thank you for visiting! hey
+This website contains information about my academic and professional experiences as well as information to contact my email, github, and other professional networks. Please use the links below to access the different sections of the website. Thank you for visiting! 
+
+<img src="images/profile_pic.jpg" style="width:30%">
 
 ### Sections
