@@ -5,10 +5,14 @@ navbar:
   right:
     - text: "About"
       href: about.html
+    - text: "Resume"
+      href: resume.html
+    - text: "NYC Restaurant Inspections Dashboard"
+      href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<adarshram97@gmail.com>
     - icon: fa-github fa-lg
-      href: http://github.com/adarshram97/
+      href: http://github.com/adarsh1997/
 output:
   html_document:
     theme: cerulean
